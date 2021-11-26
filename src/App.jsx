@@ -157,7 +157,7 @@ export default function App() {
         <div className="bio">
        Gm, and Gn. I am Ricardo and I am making something in web3. Let's connect on <a href="https://twitter.com/RicardoSawir" target="_blank">Twitter</a> and <a href="https://github.com/sawirricardo" target="_blank">Github</a>. 
         Connect your Ethereum wallet and wave at me!
-        <p>Also you can visit this website repo here</p>
+        <p>Also you can visit this <a href="https://rinkeby.etherscan.io/address/0x6e17246744b63977ef6dcDE1233A283BF5f14CCd" target="_blank">contract address</a> and <a href="https://github.com/sawirricardo/waveportal" target="_blank">web repo</a></p>
         </div>
 {!isMetamaskInstalled && (<div className="bio">{METAMASK_NOT_INSTALLED_MESSAGE}</div>)}
 {!currentAccount && (<div className="bio">Connect your wallet to rinkeby network first to see other's waves!</div>)}
